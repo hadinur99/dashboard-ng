@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultModule } from './layouts/default/default.module';
+// import { ReportComponent } from './modules/report/report.component';
 // import { PostsComponent } from './modules/posts/posts.component';
 // import { HeaderComponent } from './shared/components/header/header.component';
 // import { FooterComponent } from './shared/components/footer/footer.component';
@@ -15,6 +16,7 @@ import { DefaultModule } from './layouts/default/default.module';
 @NgModule({
   declarations: [
     AppComponent,
+    // ReportComponent,
     // PostsComponent,
     // HeaderComponent,
     // FooterComponent,
